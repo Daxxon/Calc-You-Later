@@ -1,12 +1,16 @@
+button {
+  padding: 0px;
+}
 .calculatorButton {
-  width: 48px;
-  height: 48px;
+  width: 50px;
+  height: 50px;
   margin: 0;
   border-style: solid;
   border-width: 1px;
   border-color: #20e1c6;
   background-color: #57af01;
   color: white;
+  outline: none;
 }
 
 .btnLabelBox {
@@ -14,12 +18,31 @@
   vertical-align: middle;
 }
 
+#divi {
+  background-color: #80ba85;
+}
+
+#mult {
+  background-color: #80ba85;
+}
+
+#add {
+  background-color: #80ba85;
+}
+
+#sub {
+  background-color: #80ba85;
+}
+
 #myCalculator {
   width: 200px;
   display: flex;
   flex-flow: row wrap;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #20e1c6;
 }
 
 #output {
-  width: 148px;
+  width: 150px;
 }
