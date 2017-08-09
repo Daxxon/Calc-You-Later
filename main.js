@@ -18,8 +18,6 @@
 // }
 myLCD = document.getElementById('output');
 myLCD.innerHTML = '';
-let message = "Hello, I am Calculon";
-let tempStorage = '';
 
 function appendNum(myInput) {
   myLCD.innerHTML += myInput;
